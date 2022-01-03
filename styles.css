@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500&display=swap');
+* { 
+    box-sizing: border-box;
+    font-family: Krub;
+    color: navy;
+
+}
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #9CC0E7, #EEEEEE);
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.loc{
+    font-size: 1.3em;
+    
+    color: black;
+}
+
+.input-cell{
+    height: 50px;
+    width: 70px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.btn-submit{
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-submit:hover{
+    background-color:#FCFCFC
+}
+
+
+
+.input-frame{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #FAEACB;
+    padding: 10px;
+    margin: 3px;
+    position: center;
+}
+
+.output-frame{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #FCFCFC;
+    padding: 30px;
+    margin: 10px;
+    position: center;
+    width: 423px;
+}
+
