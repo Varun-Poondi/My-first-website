@@ -6,7 +6,6 @@
 
 }
 
-
 html, body {
     padding: 0;
     margin: 0;
@@ -17,7 +16,6 @@ html, body {
 
 .loc{
     font-size: 1.3em;
-    
     color: black;
 }
 
@@ -45,8 +43,6 @@ html, body {
 .btn-submit:hover{
     background-color:#FCFCFC
 }
-
-
 
 .input-frame{
     display: inline-block;
